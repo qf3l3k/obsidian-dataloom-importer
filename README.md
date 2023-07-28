@@ -1,6 +1,6 @@
 # CSV to JSON Transformation Script
 
-This is a Python script to convert CSV files into JSON format that matches a given structure. The script takes an input CSV file and an output file name (`.loom` extension will be added if not provided) and produces the transformed JSON file.
+This is a Python script to convert CSV files into LOOM format that matches a given structure. The script takes an input CSV file and an output file name (`.loom` extension will be added if not provided) and produces the transformed LOOM file.
 
 ## Requirements
 
@@ -19,11 +19,11 @@ This is a Python script to convert CSV files into JSON format that matches a giv
 
 ## Usage
 
-Run the script with the `-i` or `--input` parameter for the input CSV file and the `-o` or `--output` parameter for the output JSON file. 
+Run the script with the `-i` or `--input` parameter for the input CSV file and the `-o` or `--output` parameter for the output LOOM file. 
 
 Example:
 ```bash
-python csv_to_json.py -i input.csv -o output
+python csv2loom.py -i input.csv -o output
 ```
 This will create a file named `output.loom` in the same directory as the script.
 
