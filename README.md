@@ -15,7 +15,7 @@ This is a Python script to convert CSV files into JSON format that matches a giv
    - Activate the virtual environment:
      - On Windows: `.\venv\Scripts\activate`
      - On Linux/Mac: `source venv/bin/activate`
-3. Install the necessary Python packages with pip: `pip install -r requirements.txt`
+3. Install the necessary Python packages with pip: `pip install uuid`
 
 ## Usage
 
